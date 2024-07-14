@@ -1,0 +1,28 @@
+body {
+    margin: 0; font-family: Helvetica;
+}
+header {margin-top: 30px; text-align: center; margin-left:-210px}
+section{background: #dbdada;padding-top: 60px;}
+div.header{padding: 15px;}
+div.header h2{margin: 0; font-size: 20px; display: inline-block; color: #000000;}
+.box .header .date{
+    float: right; margin: 0; opacity: 0.5;
+}
+.box {background: white; 
+    width: 600px; 
+    margin: auto; 
+    margin-bottom: 60px; 
+    margin-top: 15px;
+    border-radius: 5px;
+}
+img{width: 50%;}
+div.description{padding: 15px;}
+footer{
+    margin-top: 30px; /* Ajusta este valor según tus necesidades */
+    padding: 10px 0;
+    text-align: center;
+    background-color: #f8f9fa; /* Solo para visualización clara, puede ser eliminado */
+}
+.box:last-child {
+    margin-bottom: 30px; /* Ajusta este valor según tus necesidades */
+}
